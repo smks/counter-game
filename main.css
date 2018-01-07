@@ -54,6 +54,10 @@ background-color: purple;
   z-index: 2;
 }
 
+.grid-cell-dot-empty {
+  z-index: 3;
+}
+
 .grid-cell-counter-active {
   transition: transform 0.2s ease-in-out;  
 
@@ -63,6 +67,9 @@ background-color: purple;
   transform: scale(1.1, 1.1);
 }
 
+.grid-cell-counter-chosen {
+border:3px solid #ffffff;
+}
 
 .grid-cell-counter-red {
   background-color: red;
